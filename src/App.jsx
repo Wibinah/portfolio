@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './App.css';
-import Header from './components/header/Header'
+import Section from './components/section/section'
 import Navbar from './components/navbar/Navbar'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
@@ -14,8 +14,16 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
   <>
-    <Header/>
-   <Contact/>
+    <Section/>
+    <Navbar/>
+    <About/>
+    {/* <Experience/> */}
+    {/* <Testimonial/> */}
+    <Portfolio />
+    <Services/>
+    <Contact/>
+    <Footer/>
+
  </>
 );
 }
