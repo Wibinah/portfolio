@@ -16,11 +16,11 @@ function App() {
   <>
     <Section/>
     <Navbar/>
-    <About/>
-    <Experience/>
-    {/* <Testimonial/> */}
+     <About/>
+    <Experience/> 
+    <Services/> 
     <Portfolio />
-    <Services/>
+    <Testimonial/>  
     <Contact/>
     <Footer/>
 

@@ -9,7 +9,7 @@ export const Services = () => {
       <h5>What i offer</h5>
       <h2>Services</h2>
       <div className="container services__container">
-        <listServices />
+        <ListServices />
       </div>
     </section>
   );

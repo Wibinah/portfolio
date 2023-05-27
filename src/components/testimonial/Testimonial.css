@@ -33,7 +33,7 @@
     background: var(--color-primary);
 
 }
-
+/* 
 @media only screen and (max-width:1024px) {
     .container.testimonials__container{
         width: 60%;
@@ -50,4 +50,4 @@
         width:var(--container--width-sm)
     }
 }
-
+ */
