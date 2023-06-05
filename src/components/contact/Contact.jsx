@@ -9,8 +9,8 @@ import emailjs from 'emailjs-com'
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-     emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current,
-    'EmSdUNQzQuxkUqGWx')
+     emailjs.sendForm('service_uwqtzgm', 'template_12scdmz', form.current,
+    'xCZ_N_iHhvdZedOPV')
     e.target.reset()
      .then((result) => {
  console.log(result.text)
@@ -28,7 +28,7 @@ return (
       <MdOutlineEmail className='contact__option__icon'/>
       <h4>Email</h4>
       <h5>myemail@gmail.com</h5>
-      <a href='mailto:wibinah343@gmail.com' target='_blank'rel="noreferrer">send a message</a>
+      <a href='mailto:wibinahtetuh@gmail.com' target='_blank'rel="noreferrer">send a message</a>
    </article>
    <article className='contact__option'>
     <AiOutlineLinkedin className='contact__option__icon'/>
